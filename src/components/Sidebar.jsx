@@ -7,6 +7,9 @@ export default function Sidebar() {
         <Link to="/" className="block text-gray-800 hover:text-blue-600">
           Home
         </Link>
+        <Link to="/watch/1" className="block text-gray-800 hover:text-blue-600">
+          Watch
+        </Link>
         <Link to="/channel/1" className="block text-gray-800 hover:text-blue-600">
           Channel
         </Link>
