@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import VideoPlayer from "./pages/VideoPlayer";
 import Channel from "./pages/Channel";
 import Auth from "./pages/Auth";
+import SignInPage from "./pages/SignInPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Route path="/watch/:id" element={<VideoPlayer />} />
               <Route path="/channel/:id" element={<Channel />} />
               <Route path="/auth" element={<Auth />} />
+              <Route path="/signin" element={<SignInPage />} />
             </Routes>
           </main>
         </div>
